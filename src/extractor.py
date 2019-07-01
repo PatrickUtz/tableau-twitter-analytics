@@ -23,9 +23,9 @@ time.sleep(4)
 
 # send id and password info
 id_box.click()
-id_box.send_keys("washabstract")
+id_box.send_keys("")
 pass_box.click()
-pass_box.send_keys("5T4R_1)U5T")
+pass_box.send_keys("")
 login.click()
 
 time.sleep(3)
