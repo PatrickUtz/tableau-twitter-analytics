@@ -23,9 +23,9 @@ time.sleep(4)
 
 # send id and password info
 id_box.click()
-id_box.send_keys("")
+id_box.send_keys("washabstract")
 pass_box.click()
-pass_box.send_keys("")
+pass_box.send_keys("5T4R_1)U5T")
 login.click()
 
 time.sleep(3)
@@ -35,17 +35,17 @@ time_frame.click()
 time.sleep(2)
 
 # TODO: Update this count whenever enter a new month cycle
-total_months = 6
+total_months = 7
 
 # download data in .csv format for each month
 current_month = 3 
-for x in range(total_months):
+for x in range(total_months - current_month + 1):
     temp_month = driver.find_element_by_xpath("/html/body/div[4]/div[4]/ul/li[%s]" % current_month)
     time.sleep(2)
     temp_month.click()
     time.sleep(2)
     export_data.click()
-    time.sleep(240)
+    time.sleep(240) # update this
     if (current_month == 3):
         keyboard.press_and_release('down')
         keyboard.press_and_release('enter')

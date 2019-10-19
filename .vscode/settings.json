@@ -1,5 +1,0 @@
-{
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.pythonPath": "/Users/patrickutz/anaconda3/envs/washabstract/bin/python"
-}

@@ -55,5 +55,3 @@ file_list = glob.glob("tweet_*")
 # for x in file_list:
 #     keyboard.write('rm %s' % x)
 #     keyboard.press_and_release('enter')
-
-
